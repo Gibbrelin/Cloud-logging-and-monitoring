@@ -121,9 +121,12 @@ A **log group** is a container for log streams (individual logs from different s
 
 3. Click **Create log group**.
 
-
+![Screenshot 2024-09-25 164039](https://github.com/user-attachments/assets/1025fd6e-c970-46fe-9dda-f040e0506577)
 
 4. Enter a **Log group name** (e.g., `/my-application/logs`).
+
+
+
 5. (Optional) Set **Retention settings** to specify how long to keep the logs (e.g., 7 days, 30 days).
 6. Click **Create log group**.
 
