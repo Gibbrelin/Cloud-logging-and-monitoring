@@ -154,7 +154,7 @@ To send your application's logs to CloudWatch, you need to configure the applica
      ```
    - The wizard will guide you through specifying the log file locations, log group names, and log stream names.
 
-
+![Screenshot 2024-09-25 165341](https://github.com/user-attachments/assets/4746b48c-75bd-4904-a051-7482a0799ffe)
 
 2. **Start the CloudWatch Agent**:
    - After creating the configuration file, start the agent:
@@ -174,6 +174,9 @@ To send your application's logs to CloudWatch, you need to configure the applica
 
 ### Steps:
 1. Navigate to the **S3 Dashboard**, select the **S3 bucket** you want to monitor.
+
+
+
 2. Under the **Properties** tab, enable **Server Access Logging**.
 3. Choose a **target bucket** to store logs (can be the same bucket or a separate one).
 4. Update the target bucket’s policy to allow S3 to write logs to it.
