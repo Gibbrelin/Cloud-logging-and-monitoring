@@ -79,6 +79,8 @@ AWS CloudTrail is a service that enables governance, compliance, and operational
 ### Steps:
 1. Navigate to the **VPC Dashboard** in the AWS Console.
 
+![Screenshot 2024-09-25 162732](https://github.com/user-attachments/assets/17f2e934-bea2-4927-bcc8-788ae898a6e3)
+
 2. Select the **VPC** or network interface for which you want to create flow logs.
 
 3. Click **Create Flow Log**.
