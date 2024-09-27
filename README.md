@@ -211,7 +211,7 @@ To send your application's logs to CloudWatch, you need to configure the applica
 
 3. View metrics such as CPU utilization, disk I/O, and memory usage under the **CloudWatch Metrics** section.
 
-
+![Screenshot 2024-09-27 170332](https://github.com/user-attachments/assets/33b2a3ac-ea50-4581-b3cd-4a8e5783806f)
 
 ### Advanced:
 - Set **CloudWatch Alarms** for critical database metrics like CPU utilization, read/write latency, or free storage space.
