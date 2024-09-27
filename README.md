@@ -125,10 +125,13 @@ A **log group** is a container for log streams (individual logs from different s
 
 4. Enter a **Log group name** (e.g., `/my-application/logs`).
 
-
+![Screenshot 2024-09-25 164113](https://github.com/user-attachments/assets/f6833118-a075-4afb-9316-a99f4a7c103c)
 
 5. (Optional) Set **Retention settings** to specify how long to keep the logs (e.g., 7 days, 30 days).
+
 6. Click **Create log group**.
+
+
 
 ### Step 2: Set Up the Application to Send Logs to CloudWatch
 To send your application's logs to CloudWatch, you need to configure the application's environment to push logs to CloudWatch Logs. This can be done through AWS services like **Amazon EC2**, **ECS**, **Lambda**, or by using the **CloudWatch Agent**.
