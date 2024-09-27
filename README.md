@@ -53,9 +53,11 @@ AWS CloudTrail is a service that enables governance, compliance, and operational
 
 3. Specify an **S3 bucket** where logs will be stored.
 
-
+![Screenshot 2024-09-25 161010](https://github.com/user-attachments/assets/8b2dde5d-0e29-4db9-818c-dc90441bad19)
 
 4. Enable **log file validation** to ensure log integrity.
+
+
 5. Enable logging for all regions to track API calls made across all AWS services.
 6. Click **Create**.
 
