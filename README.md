@@ -32,6 +32,8 @@ TABLE OF CONTENT:
 
 5. You can now see enhanced metrics like CPU, disk I/O, network traffic, etc., with a 1-minute interval.
 
+![Screenshot 2024-09-27 143622](https://github.com/user-attachments/assets/dab5fe55-f458-4ed5-93e0-540e9d7d0886)
+
 ### Advanced:
 - You can set **CloudWatch Alarms** to trigger alerts (email, SMS, etc.) when thresholds for metrics like CPU utilization are breached.
 
