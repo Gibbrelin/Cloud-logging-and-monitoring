@@ -199,6 +199,10 @@ To send your application's logs to CloudWatch, you need to configure the applica
 
 ### Steps:
 1. In the **RDS Console**, select the **RDS instance** you want to monitor.
+
+
+
+
 2. Go to the **Monitoring** tab and enable **Enhanced Monitoring** for more granular metrics (additional costs may apply).
 3. View metrics such as CPU utilization, disk I/O, and memory usage under the **CloudWatch Metrics** section.
 
