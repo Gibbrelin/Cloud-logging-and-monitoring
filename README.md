@@ -40,9 +40,13 @@ TABLE OF CONTENT:
 ---
 
 ## 2. Set Up AWS CloudTrail for Logging API Calls
+AWS CloudTrail is a service that enables governance, compliance, and operational and risk auditing of your AWS account. It records AWS API calls for your account and delivers log files to an Amazon S3 bucket. The API call history captured by CloudTrail includes details such as the identity of the API caller, the time of the API call, the source IP address of the caller, and the request parameters.
 
 ### Steps:
 1. **Log in to AWS Console**, navigate to **CloudTrail**.
+
+
+
 2. Click **Create Trail** and enter a trail name.
 3. Specify an **S3 bucket** where logs will be stored.
 4. Enable **log file validation** to ensure log integrity.
