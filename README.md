@@ -57,8 +57,12 @@ AWS CloudTrail is a service that enables governance, compliance, and operational
 
 4. Enable **log file validation** to ensure log integrity.
 
+![Screenshot 2024-09-25 161138](https://github.com/user-attachments/assets/d967d3e7-89d4-418c-bfaf-79f82afe903c)
 
 5. Enable logging for all regions to track API calls made across all AWS services.
+
+
+
 6. Click **Create**.
 
 ### Monitoring:
