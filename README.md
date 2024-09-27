@@ -65,7 +65,9 @@ AWS CloudTrail is a service that enables governance, compliance, and operational
 
 6.Review and Click **Create**.
 
+![Screenshot 2024-09-25 161904](https://github.com/user-attachments/assets/51dd1ece-0374-4f44-9901-0dae68327865)
 
+![Screenshot 2024-09-25 162114](https://github.com/user-attachments/assets/e631fa63-0b19-4d1a-b5ca-7b7dc5b4f29c)
 
 ### Monitoring:
 - You can use **AWS CloudWatch** to monitor CloudTrail logs for unusual activity or set up alerts based on specific API calls.
@@ -76,10 +78,15 @@ AWS CloudTrail is a service that enables governance, compliance, and operational
 
 ### Steps:
 1. Navigate to the **VPC Dashboard** in the AWS Console.
+
 2. Select the **VPC** or network interface for which you want to create flow logs.
+
 3. Click **Create Flow Log**.
+
 4. Choose the **destination** (CloudWatch Logs or S3) where flow logs will be stored.
+
 5. Select a **filter** for logging (e.g., All, Accept, Reject).
+
 6. Click **Create** to enable logging.
 
 ### Monitoring:
