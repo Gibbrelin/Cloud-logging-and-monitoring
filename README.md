@@ -106,13 +106,47 @@ AWS CloudTrail is a service that enables governance, compliance, and operational
 ---
 
 ## 4. Set Up CloudWatch Logs for Application Monitoring
+Amazon CloudWatch Logs is a monitoring service that helps you collect, access, and analyze log data from your applications and services. By setting up CloudWatch Logs, you can monitor application health, troubleshoot issues, and optimize performance. This guide walks you through the steps of setting up CloudWatch Logs for application monitoring.
 
 ### Steps:
-1. **Install CloudWatch Logs Agent** on your EC2 instances (Linux or Windows).
-2. Configure the agent to collect logs from specific files, directories, or system logs.
-3. In the **CloudWatch Logs Console**, create a **log group** and associate your EC2 logs with it.
-4. Customize log retention and monitoring settings for the group.
 
+### Step 1: Create a Log Group
+A **log group** is a container for log streams (individual logs from different sources).
+
+1. In the **CloudWatch** dashboard, navigate to **Logs** from the left-hand menu.
+2. Click on **Log groups**.
+3. Click **Create log group**.
+4. Enter a **Log group name** (e.g., `/my-application/logs`).
+5. (Optional) Set **Retention settings** to specify how long to keep the logs (e.g., 7 days, 30 days).
+6. Click **Create log group**.
+
+### Step 2: Set Up the Application to Send Logs to CloudWatch
+To send your application's logs to CloudWatch, you need to configure the application's environment to push logs to CloudWatch Logs. This can be done through AWS services like **Amazon EC2**, **ECS**, **Lambda**, or by using the **CloudWatch Agent**.
+
+#### (Option A) Configure CloudWatch Agent for EC2 or On-Premises Servers
+1. **Install the CloudWatch Agent**:
+   - For Linux, run:
+     ```bash
+     sudo yum install amazon-cloudwatch-agent
+     ```
+   - For Windows, download and install the agent from the AWS documentation.
+   
+2. **Create a Configuration File**:
+   - Use the CloudWatch Agent Wizard to create a configuration file:
+     ```bash
+     sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard
+     ```
+   - The wizard will guide you through specifying the log file locations, log group names, and log stream names.
+
+3. **Start the CloudWatch Agent**:
+   - After creating the configuration file, start the agent:
+     ```bash
+     sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl \
+     -a start \
+     -c file:/path/to/config.json \
+     -s
+     ```
+   
 ### Advanced:
 - Use **CloudWatch Logs Insights** for advanced querying and analysis of application logs.
 
