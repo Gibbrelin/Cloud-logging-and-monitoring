@@ -205,9 +205,13 @@ To send your application's logs to CloudWatch, you need to configure the applica
 
 2. Go to the **Monitoring** tab and enable **Enhanced Monitoring** for more granular metrics (additional costs may apply).
 
-
+![Screenshot 2024-09-26 224842](https://github.com/user-attachments/assets/5a284d19-1ed2-4d86-b57e-165cca50e467)
+![Screenshot 2024-09-26 224735](https://github.com/user-attachments/assets/97a2eff6-c26e-49ad-807e-c52b9c41dcd9)
+![Screenshot 2024-09-26 224803](https://github.com/user-attachments/assets/d5764d8c-a29e-4daf-adf3-dd6440212a27)
 
 3. View metrics such as CPU utilization, disk I/O, and memory usage under the **CloudWatch Metrics** section.
+
+
 
 ### Advanced:
 - Set **CloudWatch Alarms** for critical database metrics like CPU utilization, read/write latency, or free storage space.
