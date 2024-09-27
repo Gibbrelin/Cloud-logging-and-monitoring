@@ -85,8 +85,10 @@ AWS CloudTrail is a service that enables governance, compliance, and operational
 
 ![Screenshot 2024-09-25 162837](https://github.com/user-attachments/assets/5d481573-0671-4bed-9dd3-49713b6bfaea)
 
-3. Click **Create Flow Log**.
+3. Navigate to **Flow log** and Click **Create Flow Log**.
 
+![Screenshot 2024-09-25 162951](https://github.com/user-attachments/assets/f139c09c-3130-4345-be24-516467875b8f)
+![Screenshot 2024-09-25 163158](https://github.com/user-attachments/assets/c659c70b-5775-406a-ae31-c9f53a9a906d)
 
 4. Choose the **destination** (CloudWatch Logs or S3) where flow logs will be stored.
 
