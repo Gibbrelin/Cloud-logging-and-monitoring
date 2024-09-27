@@ -28,7 +28,7 @@ TABLE OF CONTENT:
 
 4. If **detailed monitoring** is not enabled, click **Manage Detailed Monitoring** and select **Enable** (this comes with additional costs).
 
-
+![Screenshot 2024-09-27 142434](https://github.com/user-attachments/assets/6e4d8707-fecc-488c-aa7c-cbc067116398)
 
 5. You can now see enhanced metrics like CPU, disk I/O, network traffic, etc., with a 1-minute interval.
 
