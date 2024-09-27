@@ -20,9 +20,12 @@ TABLE OF CONTENT:
 
 2. Go to instances on the left hand side and Select the **EC2 instance** you want to monitor.
 
-
+![Screenshot 2024-09-27 142403](https://github.com/user-attachments/assets/93394971-88da-460e-9fd1-f942a148da6b)
 
 3. Go to the **Monitoring** tab and check for existing CloudWatch monitoring.
+
+
+
 4. If **detailed monitoring** is not enabled, click **Manage Detailed Monitoring** and select **Enable** (this comes with additional costs).
 5. You can now see enhanced metrics like CPU, disk I/O, network traffic, etc., with a 1-minute interval.
 
