@@ -114,8 +114,15 @@ Amazon CloudWatch Logs is a monitoring service that helps you collect, access, a
 A **log group** is a container for log streams (individual logs from different sources).
 
 1. In the **CloudWatch** dashboard, navigate to **Logs** from the left-hand menu.
+
+![Screenshot 2024-09-25 164017](https://github.com/user-attachments/assets/c4102be9-68af-4b3d-982c-1bb28c9de350)
+
 2. Click on **Log groups**.
+
 3. Click **Create log group**.
+
+
+
 4. Enter a **Log group name** (e.g., `/my-application/logs`).
 5. (Optional) Set **Retention settings** to specify how long to keep the logs (e.g., 7 days, 30 days).
 6. Click **Create log group**.
