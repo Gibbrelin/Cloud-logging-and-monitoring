@@ -15,7 +15,13 @@ TABLE OF CONTENT:
 
 ### Steps:
 1. **Log in to AWS Console** and navigate to the **EC2 Dashboard**.
-2. Select the **EC2 instance** you want to monitor.
+
+![Screenshot 2024-09-27 142630](https://github.com/user-attachments/assets/b4028db3-205a-4e68-b32e-39937c4d4c89)
+
+2. Go to instances on the left hand side and Select the **EC2 instance** you want to monitor.
+
+
+
 3. Go to the **Monitoring** tab and check for existing CloudWatch monitoring.
 4. If **detailed monitoring** is not enabled, click **Manage Detailed Monitoring** and select **Enable** (this comes with additional costs).
 5. You can now see enhanced metrics like CPU, disk I/O, network traffic, etc., with a 1-minute interval.
