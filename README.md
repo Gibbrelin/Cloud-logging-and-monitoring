@@ -61,9 +61,11 @@ AWS CloudTrail is a service that enables governance, compliance, and operational
 
 5. Enable logging for all regions to track API calls made across all AWS services.
 
+![Screenshot 2024-09-25 161722](https://github.com/user-attachments/assets/b15380ab-f9fd-473f-9c88-6200682e8c38)
+
+6.Review and Click **Create**.
 
 
-6. Click **Create**.
 
 ### Monitoring:
 - You can use **AWS CloudWatch** to monitor CloudTrail logs for unusual activity or set up alerts based on specific API calls.
