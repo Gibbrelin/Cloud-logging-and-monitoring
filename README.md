@@ -143,7 +143,7 @@ To send your application's logs to CloudWatch, you need to configure the applica
      ```bash
      sudo yum install amazon-cloudwatch-agent
      ```
-
+![Screenshot 2024-09-25 164513](https://github.com/user-attachments/assets/12099891-fec1-4a92-a529-1903e578d8e6)
 
    - For Windows, download and install the agent from the AWS documentation.
    
@@ -153,6 +153,8 @@ To send your application's logs to CloudWatch, you need to configure the applica
      sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard
      ```
    - The wizard will guide you through specifying the log file locations, log group names, and log stream names.
+
+
 
 2. **Start the CloudWatch Agent**:
    - After creating the configuration file, start the agent:
