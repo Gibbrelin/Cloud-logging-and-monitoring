@@ -131,27 +131,30 @@ A **log group** is a container for log streams (individual logs from different s
 
 6. Click **Create log group**.
 
+![Screenshot 2024-09-25 164131](https://github.com/user-attachments/assets/5f556241-6e34-40a5-8e52-7aee2f52ac35)
 
 
 ### Step 2: Set Up the Application to Send Logs to CloudWatch
-To send your application's logs to CloudWatch, you need to configure the application's environment to push logs to CloudWatch Logs. This can be done through AWS services like **Amazon EC2**, **ECS**, **Lambda**, or by using the **CloudWatch Agent**.
+To send your application's logs to CloudWatch, you need to configure the application's environment to push logs to CloudWatch Logs. This can be done through AWS services like **Amazon EC2**, **ECS**, **Lambda**, or by using the **CloudWatch Agent** (for this illustration we'll be using ec2 instance)
 
-#### (Option A) Configure CloudWatch Agent for EC2 or On-Premises Servers
+#### Configure CloudWatch Agent for EC2 or On-Premises Servers
 1. **Install the CloudWatch Agent**:
    - For Linux, run:
      ```bash
      sudo yum install amazon-cloudwatch-agent
      ```
+
+
    - For Windows, download and install the agent from the AWS documentation.
    
-2. **Create a Configuration File**:
+1. **Create a Configuration File**:
    - Use the CloudWatch Agent Wizard to create a configuration file:
      ```bash
      sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard
      ```
    - The wizard will guide you through specifying the log file locations, log group names, and log stream names.
 
-3. **Start the CloudWatch Agent**:
+2. **Start the CloudWatch Agent**:
    - After creating the configuration file, start the agent:
      ```bash
      sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl \
